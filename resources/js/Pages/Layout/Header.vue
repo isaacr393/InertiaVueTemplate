@@ -1,5 +1,5 @@
 <template>
-    <header class="topbar is_stuck" style="position: fixed; top: 0px; width: 1058.08px;">
+    <header class="topbar is_stuck" style="position: fixed; top: 0px; width: 100vw;">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- ============================================================== -->
                 <!-- Logo -->

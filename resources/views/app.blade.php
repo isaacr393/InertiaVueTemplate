@@ -41,7 +41,7 @@
     <script src="{{ asset('/js/waves.js') }}" defer></script>
     @inertiaHead
   </head>
-  <body>
+  <body class="fix-header fix-sidebar card-no-border">
     @inertia
   </body>
 </html>

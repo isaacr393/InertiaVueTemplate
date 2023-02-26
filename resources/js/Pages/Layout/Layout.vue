@@ -1,10 +1,12 @@
 <template>
-    <body class="fix-header fix-sidebar card-no-border">
-        <div id="main-wrapper">
-            <Header />
-            <Sidebar />
-        </div>       
-    </body>
+    <div id="main-wrapper">
+        <Header />
+        <Sidebar />
+
+        <main class="content">
+            <slot />
+        </main>
+    </div>       
 </template>
 
 <script>
