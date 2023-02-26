@@ -3,9 +3,9 @@
         <Header />
         <Sidebar />
 
-        <main class="content">
+        <div class="page-wrapper" style="min-height: 690px;">
             <slot />
-        </main>
+        </div>
     </div>       
 </template>
 

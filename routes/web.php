@@ -13,6 +13,10 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-   return Inertia::render("Layout/Layout");
+Route::get('/users', function () {
+    return Inertia::render("Components/Users/index");
 });
+
+/* Route::get('/', function () {
+   return Inertia::render("Layout/Layout");
+}); */
