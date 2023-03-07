@@ -1,7 +1,7 @@
 <template>
     <div id="main-wrapper">
         <Header />
-        <Sidebar />
+        <Topsidebar />
 
         <div class="page-wrapper" style="min-height: 690px;">
             <slot />
@@ -11,10 +11,11 @@
 
 <script>
 import Header from './Header.vue';
-import Sidebar from './Sidebar.vue';
+import Sidebar from './Sidebar.vue'
+import Topsidebar from './Topsidebar.vue';
 
 export default {
-    components : { Sidebar,Header  }
+    components : { Sidebar,Header,Topsidebar  }
 }
 </script>
 

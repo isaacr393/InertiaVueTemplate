@@ -7,16 +7,18 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
 
         <!-- STYLES -->
-        <link href="{{ mix('/css/app.css') }}" rel="stylesheet" />
-        <link href="{{ asset('/css/blue.css') }}" rel="stylesheet" />
+        <!-- <link href="{{ mix('/css/app.css') }}" rel="stylesheet" /> -->
+        <!-- <link href="{{ asset('/css/blue.css') }}" rel="stylesheet" /> -->
+        <link href="{{ asset('/css/blue2.css') }}" rel="stylesheet" />
         <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" />
         <link href="{{ asset('/css/morris.css') }}" rel="stylesheet" />
-        <link href="{{ asset('/css/style.css') }}" rel="stylesheet" />
+        <!-- <link href="{{ asset('/css/style.css') }}" rel="stylesheet" /> -->
+        <link href="{{ asset('/css/style2.css') }}" rel="stylesheet" />
         <link href="{{ asset('/css/animate.css') }}" rel="stylesheet" />
-        <link href="{{ asset('/css/css.css') }}" rel="stylesheet" />
+        <!-- <link href="{{ asset('/css/css.css') }}" rel="stylesheet" /> -->
         <!-- <link href="{{ asset('/css/font-awesome.min.css') }}" rel="stylesheet" /> -->
         <!-- <link href="{{ asset('/css/simple-line-icons.css') }}" rel="stylesheet" /> -->
         <!-- <link href="{{ asset('/css/weather-icons.min.css') }}" rel="stylesheet" />     -->
@@ -25,6 +27,10 @@
         <!-- <link href="{{ asset('/css/linea.css') }}" rel="stylesheet" /> -->
         <!-- <link href="{{ asset('/css/materialdesignicons.min.css') }}" rel="stylesheet" /> -->
         <link href="{{ asset('/css/spinners.css') }}" rel="stylesheet" />
+        <link href="{{ asset('/css/jquery-jvectormap-2.0.2.css') }}" rel="stylesheet" />
+        <link href="{{ asset('/css/chartist-init.css') }}" rel="stylesheet" />
+        <link href="{{ asset('/css/chartist-plugin-tooltip.css') }}" rel="stylesheet" />
+        <link href="{{ asset('/css/chartist.min.css') }}" rel="stylesheet" />
 
         <!-- SCRIPTS -->
         <script src="{{ mix('/js/app.js') }}" defer></script>
@@ -34,11 +40,13 @@
         <script src="{{ asset('/js/jQuery.style.switcher.js') }}" defer></script>
         <script src="{{ asset('/js/popper.min.js') }}" defer></script>
         <script src="{{ asset('/js/bootstrap.min.js') }}" defer></script>
-        <script src="{{ asset('/js/custom.min.js') }}" defer></script>        
+        <!-- <script src="{{ asset('/js/custom.min.js') }}" defer></script>         -->
+        <script src="{{ asset('/js/custom2.min.js') }}" defer></script>        
         <script src="{{ asset('/js/morris.min.js') }}" defer></script>
         <!-- <script src="{{ asset('/js/dashboard1.js') }}" defer></script> -->
         <script src="{{ asset('/js/raphael-min.js') }}" defer></script>
-        <script src="{{ asset('/js/sidebarmenu.js') }}" defer></script>
+        <!-- <script src="{{ asset('/js/sidebarmenu.js') }}" defer></script> -->
+        <script src="{{ asset('/js/sidebarmenu2.js') }}" defer></script>
         <script src="{{ asset('/js/sticky-kit.min.js') }}" defer></script>
         <script src="{{ asset('/js/waves.js') }}" defer></script>
 
